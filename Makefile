@@ -40,7 +40,7 @@ testall: | environment $(TESTSSMALL) $(TESTSMED) $(TESTSLARGE)
 
 testallsmall: | environment $(TESTSSMALL)
 
-testallmed: | environment $(TESTMED)
+testallmed: | environment $(TESTSMED)
 
 testalllarge:| environment $(TESTSLARGE)
 
